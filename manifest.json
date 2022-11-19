@@ -1,6 +1,6 @@
 {
-    "name": "number_app",
-    "short_name": "number_app",
+    "name": "minnal",
+    "short_name": "minnal",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
