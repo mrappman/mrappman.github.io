@@ -126,7 +126,7 @@ class _PathalamPortalScreenState extends State<PathalamPortalScreen> {
           // Banner Image
           ClipRRect(
             borderRadius: const BorderRadius.vertical(top: Radius.circular(18)),
-            child: Image.network(imageUrl, height: 170, fit: BoxFit.cover),
+            child: Image.asset(imageUrl, height: 170, fit: BoxFit.cover),
           ),
 
           // Content Section

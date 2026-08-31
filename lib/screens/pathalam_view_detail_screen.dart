@@ -45,7 +45,7 @@ class PathalamViewDetailScreen extends StatelessWidget {
                 // Product Hero Image Card
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: Image.network(
+                  child: Image.asset(
                     'assets/images/pv_glass.webp', // Replace with PV Glasses hero asset
                     width: double.infinity,
                     height: 260,

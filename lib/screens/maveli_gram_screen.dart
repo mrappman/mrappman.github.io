@@ -376,7 +376,7 @@ class _MaveligramScreenState extends State<MaveligramScreen> {
           // Image
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
-            child: Image.network(
+            child: Image.asset(
               imageUrl,
               height: 180,
               width: double.infinity,
