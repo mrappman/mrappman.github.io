@@ -1,0 +1,173 @@
+name: maveli_mart
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  bloc: ^9.2.1
+  flutter_bloc: ^9.1.1
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/container.png
+    - assets/images/flower.png
+    - assets/images/pookalam.png
+    - assets/images/sadhya.png
+    - assets/images/royalIcon.png
+    - assets/images/trackerIcon.png
+    - assets/images/parippu.png
+    - assets/images/sambar.png
+    - assets/images/kaalan.png
+    - assets/images/olan.png
+    - assets/images/erissery.png
+    - assets/images/avial.png
+    - assets/images/kootu.png
+    - assets/images/pulissery.png
+    - assets/images/thoran.png
+    - assets/images/inji.png
+    - assets/images/pappadam.png
+    - assets/images/pallada.png
+    - assets/images/ada.png
+    - assets/images/maveli02.png
+    - assets/images/outfit_kasavu.png
+    - assets/images/outfit_silk.png
+    - assets/images/outfit_jubba.png
+    - assets/images/outfit_fusion.png
+    - assets/images/gajraj.png
+    - assets/images/scooter.png
+    - assets/images/chariot.png
+    - assets/images/auto.png
+    - assets/images/shades_gold.png
+    - assets/images/shades_retro.png
+    - assets/images/shades_cyber.png
+    - assets/images/shades_pixel.png
+    - assets/images/ola_kuda.png
+    - assets/images/gold_bling.png
+    - assets/images/crown_flower.png
+    - assets/images/selfie_stick.png
+    - assets/images/metiyaadi.png
+    - assets/images/gold_juttis.png
+    - assets/images/sneakers_led.png
+    - assets/images/velvet_mojri.png
+    - assets/images/maveliBg.png
+    - assets/images/pathalamBg.png
+    - assets/images/spice.png
+    - assets/images/sanjivani.png
+    - assets/images/kalpa.png
+    - assets/images/gold_coin.png
+    - assets/images/amritam.png
+    - assets/images/chips.png
+    - assets/images/sweet.png
+    - assets/images/leaf.png
+    - assets/images/defaultProfile.png
+    - assets/images/pathalam_feast.png
+    - assets/images/maveli_avatar.png
+    - assets/images/aura_plot.png
+    - assets/images/golden_plot.png
+    - assets/images/palace_plot.png
+    - assets/images/pookalamBanner.png
+    - assets/images/chembarathi.png
+    - assets/images/chetti.png
+    - assets/images/jamanthi.png
+    - assets/images/kakkapoovu.png
+    - assets/images/mukkuti.png
+    - assets/images/thumba.png
+    - assets/images/vadamulla.png
+    - assets/images/guard_news.png
+    - assets/images/maveli_news.png
+    - assets/images/pathalam_news.png
+    - assets/images/rice_news.png
+    - assets/images/pathalam_view_bg.png
+    - assets/images/pathalam_bg.png
+    - assets/images/pv_glass.png
+    - assets/images/default_flower.png
+    - assets/images/harmony_template.png
+    - assets/images/spiral_template.png
+    - assets/images/star_template.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: assets/fonts/NotoSerif_ExtraCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/NotoSerif_ExtraCondensed-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoSerif_ExtraCondensed-Regular.ttf
+          weight: 400  
+ 
+    - family: Vietnam
+      fonts:
+        - asset: assets/fonts/BeVietnamPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/BeVietnamPro-Regular.ttf
+          weight: 400        
+ 
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
