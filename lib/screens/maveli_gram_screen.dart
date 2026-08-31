@@ -201,7 +201,7 @@ class _MaveligramScreenState extends State<MaveligramScreen> {
           location: 'Royal Pathalam Palace',
           text:
               'Tried to set up "Pathalam Pay" for instant coconut-token transfers. My Royal Counsel says we still need physical palm-leaf receipts for auditing. Some traditions never change! 📜🌴',
-          imageUrl: 'assets/images/maveli_news.png',
+          imageUrl: 'assets/images/maveli_news.webp',
           likes: '2.4K',
           comments: '142',
           smallIcon: '👑',
@@ -215,7 +215,7 @@ class _MaveligramScreenState extends State<MaveligramScreen> {
           location: 'Underworld Highway 4',
           text:
               'Notice to all Prajas: The Netherland Eco-Tunnel will be temporarily closed from 2 AM to 4 AM for routine floral garland clearing and lantern maintenance. Please plan your portal commutes accordingly. 🚧🌺',
-          imageUrl: 'assets/images/pathalam_news.png',
+          imageUrl: 'assets/images/pathalam_news.webp',
           likes: '890',
           comments: '56',
           smallIcon: '📢',
@@ -229,7 +229,7 @@ class _MaveligramScreenState extends State<MaveligramScreen> {
           location: 'Nether Realm Archives',
           text:
               'True prosperity isn\'t just about gold coins in the vault—it\'s about ensuring every house has enough rice to share and every neighbor feels heard. King Maveli’s rule continues to remind us that equality is our greatest wealth. ❤️🌾',
-          imageUrl: 'assets/images/rice_news.png',
+          imageUrl: 'assets/images/rice_news.webp',
           likes: '3.1K',
           comments: '210',
           smallIcon: '🏛️',
@@ -243,7 +243,7 @@ class _MaveligramScreenState extends State<MaveligramScreen> {
           location: 'Pathalam Central Courtyard',
           text:
               'Lost: One golden umbrella (Muthukkuda). Last seen near the mango groves. If found, please return to Guard Duty—Maveli says I can\'t stand in the afternoon sun without it! ☂️☀️',
-          imageUrl: 'assets/images/guard_news.png',
+          imageUrl: 'assets/images/guard_news.webp',
           likes: '1.5K',
           comments: '98',
           smallIcon: '🐘',

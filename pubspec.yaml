@@ -127,13 +127,13 @@ flutter:
     - assets/images/mukkuti.png
     - assets/images/thumba.png
     - assets/images/vadamulla.png
-    - assets/images/guard_news.png
-    - assets/images/maveli_news.png
-    - assets/images/pathalam_news.png
-    - assets/images/rice_news.png
-    - assets/images/pathalam_view_bg.png
-    - assets/images/pathalam_bg.png
-    - assets/images/pv_glass.png
+    - assets/images/guard_news.webp
+    - assets/images/maveli_news.webp
+    - assets/images/pathalam_news.webp
+    - assets/images/rice_news.webp
+    - assets/images/pathalam_view_bg.webp
+    - assets/images/pathalam_bg.webp
+    - assets/images/pv_glass.webp
     - assets/images/default_flower.png
     - assets/images/harmony_template.png
     - assets/images/spiral_template.png

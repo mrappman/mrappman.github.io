@@ -46,7 +46,7 @@ class PathalamViewDetailScreen extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.network(
-                    'assets/images/pv_glass.png', // Replace with PV Glasses hero asset
+                    'assets/images/pv_glass.webp', // Replace with PV Glasses hero asset
                     width: double.infinity,
                     height: 260,
                     fit: BoxFit.cover,

@@ -63,7 +63,7 @@ class _PathalamPortalScreenState extends State<PathalamPortalScreen> {
                     // Card 1: Pathalam Pass
                     _buildOptionCard(
                       imageUrl:
-                          'assets/images/pathalam_bg.png', // Replace with Portal Gate image asset
+                          'assets/images/pathalam_bg.webp', // Replace with Portal Gate image asset
                       title: 'Pathalam Pass',
                       subtitle: 'Visit Pathalam physically',
                       buttonText: 'Get Royal Pass',
@@ -82,7 +82,7 @@ class _PathalamPortalScreenState extends State<PathalamPortalScreen> {
                       
                     // Card 2: Pathalam View
                     _buildOptionCard(
-                      imageUrl: 'assets/images/pathalam_view_bg.png',
+                      imageUrl: 'assets/images/pathalam_view_bg.webp',
                       title: 'Pathalam View',
                       subtitle: 'Experience it remotely',
                       buttonText: 'Put on PV Glasses',
