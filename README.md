@@ -24,6 +24,7 @@ The application dynamically consumes the following API endpoints:
 | `/sadhya`   | Sadya dishes, pricing, preparation details, flavor profiles, allergens, serving order and family debate data |
 | `/pookalam` | Flowers, pricing, colors, freshness, recommended layers, symmetry and Pookalam templates                     |
 | `/mahabali` | Maveli's live status, location, journey progress, telemetry, checkpoints and gifts                           |
+| `/games`    | Onam Trivia with categories, questions, options, correct answers, points and hints                           |
 
 ---
 
@@ -56,6 +57,7 @@ An entertainment module offering character avatar customization, photo session t
 * **Celebrate Onam Banner:** Promotional welcome card introducing the central hub for Sadya planning and Pookalam shopping.
 * **Curated Sadyas Link:** Quick navigation card routing directly to the Sadya feast curator.
 * **Fresh Pookalams Link:** Direct navigation portal directing users to the flower store and design tools.
+* **Onam Trivia Link:** Direct navigation portal to the Onam Trivia game featuring questions on Onam history, culture, traditions, and celebrations.
 * **Where is Maveli? (Home Preview):** Direct navigation to Maveli Tracker Screen.
 * **Maveli Live Status:** Dynamic header on the detail page displaying real-time updates (status, location.name), coordinates, and live quotes.
 * **Journey Progress Timeline:** Vertical step tracker generated from the API array showing completed (visited: true) vs. upcoming waypoints along with checkpoint_progress_pct.
