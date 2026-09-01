@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:maveli_mart/screens/maveli_tracker_screen.dart';
+import 'package:maveli_mart/screens/trivia_game_screen.dart';
 import 'package:maveli_mart/utils/colors.dart';
 
 class HomeScreen extends StatelessWidget {
   final VoidCallback onNavigateToSadya;
   final VoidCallback onNavigateToFlower;
 
-  const HomeScreen({super.key, required this.onNavigateToSadya, required this.onNavigateToFlower});
+  const HomeScreen({
+    super.key,
+    required this.onNavigateToSadya,
+    required this.onNavigateToFlower,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +19,8 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(
-          maxWidth: 700, // Maximum width for web screens
-        ),
+            maxWidth: 700, // Maximum width for web screens
+          ),
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(16.0),
             child: Column(
@@ -40,6 +45,25 @@ class HomeScreen extends StatelessWidget {
                       'Vibrant petals and DIY kits to create stunning floral designs.',
                   buttonText: 'Shop Flowers ›',
                   onTap: onNavigateToFlower,
+                ),
+                const SizedBox(height: 16),
+                _buildCategoryCard(
+                  imageUrl: "assets/images/trivia.png",
+                  icon: Icons.games,
+                  title: 'Onam Trivia',
+                  description:
+                      'Test your knowledge of '
+                      "Kerala's"
+                      ' grandest festival with our interactive quiz.',
+                  buttonText: 'Play Now ›',
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const TriviaGameScreen(),
+                      ),
+                    );
+                  },
                 ),
                 const SizedBox(height: 16),
                 _buildLiveTrackerCard(context),

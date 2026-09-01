@@ -5,5 +5,7 @@ class APIUrls {
   static const String maveliTrackerSlug = "mahabali";
   static const String sadyaListSlug = "sadhya";
   static const String flowerListSlug = "pookalam";
+  static const String triviaGameSlug = "games";
+
 
 }
